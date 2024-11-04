@@ -44,7 +44,7 @@ class LancadorPrioridade {
 
         // Simulando um atraso antes de encerrar as threads
         try {
-            Thread.sleep(50000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
         e.printStackTrace();
         }
